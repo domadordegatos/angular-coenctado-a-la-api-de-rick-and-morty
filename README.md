@@ -1,27 +1,25 @@
-# Rick
+# PWA sencilla con angular conectado a la api de RYM
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+Aplicativo web conectado a una api que permite cargar contenido de la serie RICK AND MORTY,
+permite realizar filtros de busqueda en la api, carga automatica del contenido sin saturar 
+el navegador.
 
-## Development server
+  - Angular
+  - Firebase
+  - API RYM
+  - Bootstrap
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Funcionalidades!
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+  - Busqueda y filtrado
+  - Despliegue intuitivo
+  - Muestra de informacion detallada
+  - Conexion a la API
+  - despliegue en www
+  
+# Screenshots
+<div style="display="flex">
+<img width="" src="https://firebasestorage.googleapis.com/v0/b/formulario-179af.appspot.com/o/repositories%2Fq1.PNG?alt=media&token=f9fa687f-c171-4ff7-97d4-520cd734b6eb" alt="My cool logo"/>
+<img width="" src="https://firebasestorage.googleapis.com/v0/b/formulario-179af.appspot.com/o/repositories%2Fq2.PNG?alt=media&token=163436c1-4198-46ae-be85-854869862709" alt="My cool logo"/>
+<img width="" src="https://firebasestorage.googleapis.com/v0/b/formulario-179af.appspot.com/o/repositories%2Fq3.PNG?alt=media&token=c838624e-c063-43b8-8895-0a104ba89636" alt="My cool logo"/>
+</div>
