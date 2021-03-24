@@ -1,3 +1,4 @@
+import { TrackHttpError } from './../../../../shared/models/trackHttpError';
 import { CharacterService } from './../../../../shared/services/character.service';
 import { Component, OnInit, Inject, HostListener } from '@angular/core';
 import { CharacterI } from 'src/app/shared/interface/character.interface';
@@ -86,6 +87,6 @@ export class CharacterListComponent implements OnInit {
       }else{
         this.characters = []
       }
-    })
+    },(error:TrackHttpError)=>console.log((error.friendlyMessage)));
   }
 }

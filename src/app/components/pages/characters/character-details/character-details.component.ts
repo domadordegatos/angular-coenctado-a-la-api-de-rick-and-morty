@@ -1,3 +1,4 @@
+import { TrackHttpError } from './../../../../shared/models/trackHttpError';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CharacterService } from 'src/app/shared/services/character.service';
@@ -14,7 +15,7 @@ import { Location } from '@angular/common';
 })
 export class CharacterDetailsComponent implements OnInit {
 
-  character$: Observable<CharacterI>;
+  character$: Observable<CharacterI | TrackHttpError>;
 
   constructor(private route:ActivatedRoute, private characterSvc:CharacterService, private location:Location) { }
 
